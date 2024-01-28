@@ -1,0 +1,101 @@
+Duplicate Letters
+
+You are given with an array which contains n+1 letters which will contain ‘a’ to nth alphabet. 
+One of the letters in the range will be repeated. Your task is to return the repeated letter.
+
+Constrains : 
+
+1 <= n <= pow(10,5)
+arr.size == n+1
+‘a’ <= arr[i] <= nth alphabet
+
+Follow up : 
+1. Can you solve this question by using constant space 
+2. Can you solve this question by using O(N) time complexity and constant space
+
+( Assume that using arr of size 26 is not considered as constant space )
+
+Sample Test Cases
+-----------------
+
+1.	Input -
+	arr = [ ‘c’ , ’b’ , ‘a’ , ‘a’ ]
+
+	Output -
+	‘a’
+
+2.	Input -
+	arr = [ ‘d’ , ‘d’ , ’b’ , ‘a’ , ‘c’ ]
+
+	Output -
+	‘d’
+
+Hints available at the end of document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hint 1: Remember this symbol '^' ?
+Hint 2: Rabbit is fast or tortoise ?
